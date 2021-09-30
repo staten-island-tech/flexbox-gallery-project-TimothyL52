@@ -1,0 +1,23 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* Normally 100% is 16 px we want the size to be 10px so we do 62.5%  */
+}
+h2 {
+  margin: 1rem;
+}
+.parent {
+  font-size: 20px;
+}
+.px-size {
+  font-size: 20px;
+}
+.rem-size {
+  font-size: 2rem;
+}
+.em-size {
+  font-size: 1em;
+}
