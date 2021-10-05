@@ -6,8 +6,7 @@ body,
   box-sizing: border-box;
   font-size: 62.5%; /* Normally 100% is 16 px we want the size to be 10px so we do 62.5%  */
 }
-@import "_variables";
-@import "_mixins";
+
 .gallery-title {
   text-align: center;
   font-size: 6rem;
@@ -16,26 +15,26 @@ body,
   background-color: #f57c00;
 }
 
-img {
-  height: 3rem;
-}
 .gallery {
   height: 100vh;
 }
-.gallery-pics {
-  height: 10rem;
+img.gallery-pics {
+  height: 90%;
+  width: 100%;
+  background-position: center;
 }
 
 .row {
-  font-size: 30px;
+  font-size: 5rem;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 5rem;
+  position: relative;
 }
 
 .child {
   width: 25%;
-  height: 350px;
+  height: 60%;
 }
 .child-1 {
   border: 3px solid green;
