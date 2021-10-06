@@ -17,6 +17,7 @@ body,
 
 .gallery {
   height: 100vh;
+  font-family: "Indie Flower", cursive;
 }
 img.gallery-pics {
   height: 90%;
@@ -27,14 +28,14 @@ img.gallery-pics {
 .row {
   font-size: 5rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 5rem;
-  position: relative;
 }
 
 .child {
-  width: 25%;
-  height: 60%;
+  width: 50rem;
+  height: 40rem;
+  font-size: 3.5rem;
 }
 .child-1 {
   border: 3px solid green;
