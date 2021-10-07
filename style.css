@@ -30,12 +30,10 @@ img.gallery-pics {
 }
 
 .card {
-  width: 50rem;
+  width: 55rem;
   height: 45rem;
   text-align: center;
   box-shadow: 1rem 1rem 1rem #212121;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
   border: solid #bdbdbd;
   background-color: #ffe0b2;
 }
@@ -54,4 +52,6 @@ h2.card-text {
 }
 body {
   background-color: #ff9800;
+}
+@media screen {
 }
