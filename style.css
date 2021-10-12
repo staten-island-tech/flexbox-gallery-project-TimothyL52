@@ -49,10 +49,12 @@ h2.card-text {
   font-size: 4.5rem;
   color: #212121;
   transition: all 0.3s;
-  outline-offset: -0.2rem;
+  outline-offset: -0.1rem;
+  padding-bottom: 2.5rem;
 }
 h2.card-text:hover {
   outline: #ff9800 0.5rem solid;
+  background-color: #757575;
 }
 #nigiri {
   border-color: #c8e6c9;
