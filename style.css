@@ -118,5 +118,8 @@ body {
     background-color: #757575;
   }
 }
-@media screen {
+@media (max-width: 1000px) {
+  body {
+    background-color: red;
+  }
 }
