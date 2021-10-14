@@ -43,6 +43,8 @@ img.gallery-pics {
   border: solid;
   background-color: #ffe0b2;
   transition: all 0.3s;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h2.card-text {
@@ -89,6 +91,7 @@ body {
   height: 2rem;
   width: 2rem;
   animation: test 4s infinite;
+  animation-delay: -2s;
   position: absolute;
 }
 @keyframes test {
@@ -118,7 +121,23 @@ body {
     background-color: #757575;
   }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1366px) {
+  body {
+    background-color: blue;
+  }
+  .gallery {
+    transform: scale(0.8);
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+  }
+  .gallery-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 350px) {
   body {
     background-color: red;
   }
