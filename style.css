@@ -45,6 +45,25 @@ img.gallery-pics {
   transition: all 0.3s;
   margin-top: 50px;
   margin-bottom: 50px;
+  animation: size 4s;
+}
+
+@keyframes size {
+  0% {
+    transform: scale(0.1);
+  }
+  25% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 h2.card-text {
@@ -128,17 +147,24 @@ body {
   }
   .gallery {
     transform: scale(0.8);
-    display: flex;
-    justify-content: space-around;
   }
   .card {
   }
   .gallery-title {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 750px) {
   body {
     background-color: red;
+  }
+  .gallery {
+    transform: scale(0.7);
+  }
+  .gallery-title {
+    font-size: 40px;
+  }
+  h2.card-text {
+    font-size: 3rem;
   }
 }
