@@ -142,11 +142,9 @@ body {
 }
 
 @media (max-width: 1366px) {
-  body {
-    background-color: blue;
-  }
   .gallery {
     transform: scale(0.9);
+    height: 150%;
   }
 
   h2.card-text {
@@ -162,11 +160,9 @@ body {
 }
 
 @media (max-width: 1024px) {
-  body {
-    background-color: yellow;
-  }
   .gallery {
     transform: scale(0.8);
+    height: 100%;
   }
   h2.card-text {
     font-size: 3.75rem;
@@ -180,11 +176,9 @@ body {
   }
 }
 @media (max-width: 750px) {
-  body {
-    background-color: #d32f2f;
-  }
   .gallery {
     transform: scale(0.7);
+    height: 50%;
   }
   .gallery-title {
     font-size: 35px;
