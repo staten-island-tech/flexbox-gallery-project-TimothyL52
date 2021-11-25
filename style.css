@@ -21,7 +21,7 @@ body,
 }
 
 .gallery {
-  height: 400%;
+  height: 500%;
   font-family: "Indie Flower", cursive;
   flex-wrap: wrap;
   display: flex;
