@@ -21,7 +21,7 @@ body,
 }
 
 .gallery {
-  height: 500%;
+  height: 200%;
   font-family: "Indie Flower", cursive;
   flex-wrap: wrap;
   display: flex;
@@ -44,7 +44,7 @@ img.gallery-pics {
   background-color: #ffe0b2;
   transition: all 0.3s;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   margin-left: 50px;
   animation: size 4s;
 }
